@@ -2,7 +2,11 @@
 
 **表を作る → LaTeX 形式に出力してコピペできるサイト**
 
-<video src="demo.mp4"></video>
+
+
+https://github.com/user-attachments/assets/965b01f6-a028-4bac-9e7f-94dd87dca995
+
+
 
 <!-- **英語で thnk して日本語で output してください**
 
