@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* index.css — sets base typography while letting Chakra handle components. */
+:root {
+  font-family: 'Noto Sans JP', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f7fafc;
+  color: #0f172a;
+}
+
+body.dark-mode {
+  background-color: #0f172a;
+  color: #f7fafc;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Hide Luckysheet toolbar buttons except merge */
+#luckysheet-toolbar-container > .luckysheet-toolbar-button,
+#luckysheet-toolbar-container > .luckysheet-toolbar-combo-button,
+#luckysheet-toolbar-container > .luckysheet-toolbar-menu-button,
+.luckysheet-toolbar > .luckysheet-toolbar-button,
+.luckysheet-toolbar > .luckysheet-toolbar-combo-button,
+.luckysheet-toolbar > .luckysheet-toolbar-menu-button {
+  display: none !important;
+}
+
+#luckysheet-toolbar-container > #luckysheet-icon-merge-button,
+.luckysheet-toolbar > .luckysheet-toolbar-button.luckysheet-icon-merge-button,
+#luckysheet-icon-morebtn {
+  display: inline-flex !important;
+}
+
+/* Ensure Luckysheet editors show dark text */
+.luckysheet-rich-text-editor,
+.luckysheet-rich-text-editor span,
+.luckysheet-rich-text-editor *,
+.luckysheet-input-box textarea,
+.luckysheet-input-box span,
+.luckysheet-input-box *,
+.luckysheet-mousedown-movenull-text,
+#luckysheet_info_detail_input,
+.luckysheet-cell-main textarea,
+.luckysheet-cell-main *,
+.luckysheet-main,
+.luckysheet-main * {
+  color: #111111 !important;
+  fill: #111111 !important;
+  stroke: #111111 !important;
+  font-family: 'JetBrains Mono', 'Source Code Pro', Consolas, 'Courier New', monospace !important;
+}
