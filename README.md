@@ -1,6 +1,10 @@
 # table2table
 
-**英語で thnk して日本語で output してください**
+**表を作る → LaTeX 形式に出力してコピペできるサイト**
+
+<video src="demo.mp4"></video>
+
+<!-- **英語で thnk して日本語で output してください**
 
 あなたは一流のフロントエンドエンジニアです。
 表を作り、選択範囲を LaTeX（tabular/tabularx）に変換してコピペできる 1 ページ Web アプリを React + TypeScript + Vite で構築してください。UI は Chakra UI。完全クライアントで動作し、フルコード（ファイルツリー＋各ファイルの中身）と起動手順を最後に出力します。
@@ -228,9 +232,9 @@ Vite Docs[https://vite.dev/]
 
 ## 開発コマンド
 
-| コマンド | 説明 |
-| --- | --- |
-| `npm install` | 依存関係を取得します。 |
-| `npm run dev` | Vite 開発サーバー (HMR) を起動します。 |
-| `npm run build` | TypeScript 型チェック後に本番ビルドを生成します。 |
-| `npm run test` | Vitest + Testing Library によるユニットテストを実行します。 |
+| コマンド        | 説明                                                        |
+| --------------- | ----------------------------------------------------------- |
+| `npm install`   | 依存関係を取得します。                                      |
+| `npm run dev`   | Vite 開発サーバー (HMR) を起動します。                      |
+| `npm run build` | TypeScript 型チェック後に本番ビルドを生成します。           |
+| `npm run test`  | Vitest + Testing Library によるユニットテストを実行します。 | -->
