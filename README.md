@@ -2,6 +2,8 @@
 
 **表を作る → LaTeX 形式に出力してコピペできるサイト**
 
+[https://ryoww.github.io/table2table/](https://ryoww.github.io/table2table/)
+
 
 
 https://github.com/user-attachments/assets/965b01f6-a028-4bac-9e7f-94dd87dca995
