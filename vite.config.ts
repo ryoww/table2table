@@ -9,6 +9,10 @@ const repoName = 'table2table'
 export default defineConfig({
   plugins: [react()],
   base: process.env.VITE_DEPLOY_BASE ?? `/${repoName}/`,
+  build: {
+    outDir: 'docs',
+    emptyOutDir: true,
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
